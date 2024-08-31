@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(222, 211, 187);
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to left,hsl(32, 80%, 36%),hsl(32, 30%, 55%));
+    color: hsl(0, 0%, 100%);
+    padding: 30px 0;
+}
+header h1{
+font-size: 2pc;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: rgb(24, 17, 17);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2em;
+}
+.hero img{
+    width: 900px;
+    height: 400px;
+}
+.cta-button {
+    background: #6a2222f0;
+    color: rgb(255, 230, 230);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.about img{
+    width:20px;
+    height:px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.gallery-container img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+footer {
+    background: hsl(32, 16%, 21%);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
