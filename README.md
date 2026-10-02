@@ -64,7 +64,7 @@ Contains a form where users can enter their name, email, and an important date f
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/challajahnavi11/octanet-task.git
+git clone https://github.com/challajahnavi11/celebramate.git
 ```
 
 2. Open the project folder.
